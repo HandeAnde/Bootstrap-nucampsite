@@ -1,0 +1,38 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: aqua;
+}
+
+h1, h2, h3 {
+    font-family: "Comic Sans MS";
+}
+
+h2, h1 {
+    color: #33AB3F;
+}
+
+header h2 {
+    color: rgb(159, 171, 51);
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(39, 38, 43), rgb(197, 120, 48), rgb(107, 16, 62));
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar{
+    background-color: rgb(173, 45, 28);
+}
