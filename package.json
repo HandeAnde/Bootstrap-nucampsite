@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "build": "npm run clean && npm run usemin && npm run watch:scss",
     "clean": "rimraf dist",
     "lite": "lite-server",
     "imagemin": "imagemin img/* -o dist/img",
